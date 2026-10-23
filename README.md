@@ -3,6 +3,22 @@
 Reusable skills for Codex workflows. Each skill is self-contained in its own
 directory under `skills/` and is defined by a `SKILL.md` file.
 
+## Installation
+
+Install the skills interactively with the [`skills` CLI](https://skills.sh/docs/cli):
+
+```bash
+npx skills@latest add https://github.com/mohammadqd/skills.git
+```
+
+To install one skill, specify its directory name:
+
+```bash
+npx skills@latest add https://github.com/mohammadqd/skills.git --skill dez-ticket-create
+```
+
+Add `-g` to install skills globally instead of in the current project.
+
 ## Available skills
 
 | Skill | Purpose |
