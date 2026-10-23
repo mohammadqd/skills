@@ -1,0 +1,7 @@
+interface:
+  display_name: "Implement Ticket"
+  short_description: "Implement and verify an approved ticket"
+  default_prompt: "Use $dez-implement-ticket to research, plan, implement, and verify an approved ticket."
+
+policy:
+  allow_implicit_invocation: false
