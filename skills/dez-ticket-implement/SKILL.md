@@ -1,5 +1,5 @@
 ---
-name: dez-implement-ticket
+name: dez-ticket-implement
 description: To implement tickets
 ---
 

@@ -1,7 +1,7 @@
 interface:
   display_name: "Create Ticket"
   short_description: "Create clear, complete implementation tickets"
-  default_prompt: "Use $dez-create-ticket to draft a clear, complete ticket for a feature, bug fix, or improvement."
+  default_prompt: "Use $dez-ticket-create to draft a clear, complete ticket for a feature, bug fix, or improvement."
 
 policy:
   allow_implicit_invocation: false

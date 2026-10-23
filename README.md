@@ -7,21 +7,21 @@ directory under `skills/` and is defined by a `SKILL.md` file.
 
 | Skill | Purpose |
 | --- | --- |
-| [`dez-create-ticket`](skills/dez-create-ticket/SKILL.md) | Create structured tickets for features, bug fixes, and improvements. |
-| [`dez-implement-ticket`](skills/dez-implement-ticket/SKILL.md) | Research, plan, implement, and verify ticket work. |
+| [`dez-ticket-create`](skills/dez-ticket-create/SKILL.md) | Create structured tickets for features, bug fixes, and improvements. |
+| [`dez-ticket-implement`](skills/dez-ticket-implement/SKILL.md) | Research, plan, implement, and verify ticket work. |
 
 The ticket-creation skill includes a reusable template at
-[`skills/dez-create-ticket/assets/ticket-template.md`](skills/dez-create-ticket/assets/ticket-template.md).
+[`skills/dez-ticket-create/assets/ticket-template.md`](skills/dez-ticket-create/assets/ticket-template.md).
 
 ## Repository structure
 
 ```text
 skills/
-├── dez-create-ticket/
+├── dez-ticket-create/
 │   ├── SKILL.md
 │   └── assets/
 │       └── ticket-template.md
-└── dez-implement-ticket/
+└── dez-ticket-implement/
     └── SKILL.md
 ```
 

@@ -1,5 +1,5 @@
 ---
-name: dez-create-ticket
+name: dez-ticket-create
 description: To create tickets to be implemented
 ---
 

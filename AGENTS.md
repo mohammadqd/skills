@@ -5,7 +5,7 @@
 This repository contains reusable Codex skills. Each skill lives in its own
 directory under `skills/` and is primarily defined by a `SKILL.md` file. Keep
 skill-specific templates, examples, or other supporting files in that skill's
-directory, such as `skills/dez-create-ticket/assets/`. There is no application
+directory, such as `skills/dez-ticket-create/assets/`. There is no application
 source tree or generated build output.
 
 ## Build, Test, and Development Commands
@@ -24,7 +24,7 @@ checking that referenced paths and instructions exist.
 
 Write Markdown with clear headings, short paragraphs, and actionable numbered
 steps. Use repository-relative paths in examples. Name skill directories with
-lowercase kebab-case (for example, `dez-create-ticket`) and keep the required
+lowercase kebab-case (for example, `dez-ticket-create`) and keep the required
 entry file named `SKILL.md`. Use concise YAML front matter with `name` and
 `description` when a skill needs metadata. Avoid adding dependencies or code
 when a documented workflow is sufficient.
